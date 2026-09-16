@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/TurnKeyGo/pom.xml" />
         <option value="$PROJECT_DIR$/TurnKeyGo_DiscoveryServer/pom.xml" />
+        <option value="$PROJECT_DIR$/TurnKeyGo_ConfigServer/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,19 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+
+    service_url:
+      defaultZone: http://localhost:8881/eureka/
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Vansh0129/TurnKeyGo_ServerRepo
+          username: Vansh_0129
+          password: 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
+          default-label: main
+server:
+  port: 8882
