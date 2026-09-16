@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/TurnKeyGo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TurnKeyGoAi/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TurnKeyGo_ConfigServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TurnKeyGo_DiscoveryServer/src/main/java" charset="UTF-8" />
   </component>
