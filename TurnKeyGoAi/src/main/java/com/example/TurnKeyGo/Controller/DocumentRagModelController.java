@@ -1,21 +1,16 @@
 package com.example.TurnKeyGo.Controller;
 
-import com.example.TurnKeyGo.Dto.ChatRequest;
 import com.example.TurnKeyGo.Dto.FileUploadDto;
 import com.example.TurnKeyGo.Service.DocumentRagModelService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.ai.document.Document;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Objects;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping(path = "/vector-search")
