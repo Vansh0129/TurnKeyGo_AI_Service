@@ -4,3 +4,44 @@ eureka:
     fetch-registry: true
     service_url:
       defaultZone: http://localhost:8881/eureka/
+
+
+#
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/TurnKeyGo
+#    username: postgres
+#    password: Vansh12lute
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#
+#  ai:
+#    ollama:
+#      base-url: http://localhost:11434
+#      chat:
+#        model: granite3-moe:3b
+#      embedding:
+#        model: qwen3-embedding:4b
+#      datasource:
+#        url: jdbc:postgresql://localhost:5533/Vector_TurnKey
+#        username: postgres
+#        password: Vansh_0129
+#        driver-class-name: org.postgresql.Driver
+#
+#      jpa:
+#        hibernate:
+#          ddl-auto: update
+#        show-sql: true
+#        properties:
+#          hibernate:
+#            dialect: org.hibernate.dialect.PostgreSQLDialect
+#            format_sql: true
+#
+#    vectorstore:
+#      pgvector:
+#        initialize-schema: true
+#    ChatMemory:
+#      pgvector:
+#        initialize-schema: true

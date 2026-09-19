@@ -12,7 +12,7 @@ import lombok.experimental.FieldDefaults;
 public class ChatRequest {
     String prompt;
     String example;
-    Long temp;
+
 
 
 }
