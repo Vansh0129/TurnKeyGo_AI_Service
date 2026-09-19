@@ -24,6 +24,7 @@ public class DocumentRagModelController {
 //        return ResponseEntity.ok(map);
 //    }
 
+//    File Uploader !
     @PostMapping(
             value = "/upload",
             consumes = MediaType.MULTIPART_FORM_DATA_VALUE
